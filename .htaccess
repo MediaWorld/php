@@ -1,6 +1,0 @@
-Options +Indexes
-RewriteEngine on
-RewriteCond %{HTTP_REFERER} semalt\.com [NC]
-RewriteRule .* - [F]
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?tsabar.net [NC]
-RewriteRule \.(jpg|jpeg|png|gif|swf|ico)$ - [NC,F,L]
